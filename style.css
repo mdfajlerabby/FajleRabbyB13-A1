@@ -235,4 +235,54 @@ body{
   flex-shrink: 0;
 }
 
+/*Get Early Access Section*/
+.early-access {
+  padding: 100px 20px;
+  background-color: #f3f3f3f4;
+  text-align: center;
+}
+.early-access-content {
+  max-width: 650px;
+  margin: 0 auto;
+}
+.early-access h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.subtitle {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+.early-message {
+  font-size: 16px;
+  color: #374151;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+.early-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background-color: #30B868;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.early-btn img {
+  width: 18px;
+}
+.early-btn:hover {
+  background-color: #1c904c;
+  transform: translateY(-2px);
+}
+.end-text {
+  font-size: 16px;
+  color: #6b7280;
+  margin-top: 18px;
+}
+
 
