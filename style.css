@@ -12,12 +12,15 @@ body{
     background-color: #1c904c;
     color: #fff;
     border: none;
+    line-height: 1cm;
 }
 .works-button{
-    padding: 8px 14px;
+    padding: 8px 16px;
     color: #e5e7eb;
     border: 1px solid #e5e7eb;
     background-color: transparent;
+    text-decoration: none;
+    line-height: 1cm;
 }
 .works-button:hover{
     color: #d3d4d5;
@@ -84,7 +87,7 @@ body{
 }
 .banner-content{
     position: relative;
-    max-width: 665px;
+    max-width: 680px;
     z-index: 1;
     margin-top: 68px;
 }
@@ -94,9 +97,9 @@ body{
     background-color: rgb(255, 255, 255);
     color: #1c904c;
     border-radius: 25px;
-    margin-bottom: 35px;
-    font-size: 11px;
+    font-size: 13px;
     font-weight: 600;
+    margin: 40px 0;
 }
 .banner-content h1{
     font-size: 52px;
